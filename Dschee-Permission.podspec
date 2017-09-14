@@ -1,11 +1,12 @@
 Pod::Spec.new do |s|
-  s.name         = "Permission"
-  s.version      = "2.0.4"
+  s.name         = "Dschee-Permission"
+  s.module_name  = "Permission"
+  s.version      = "2.1.0"
   s.license      = { :type => "MIT" }
-  s.homepage     = "https://github.com/delba/Permission"
+  s.homepage     = "https://github.com/Dschee/Permission"
   s.author       = { "Damien" => "damien@delba.io" }
   s.summary      = "A unified API to ask for permissions on iOS"
-  s.source       = { :git => "https://github.com/delba/Permission.git", :tag => "v2.0.4" }
+  s.source       = { :git => "https://github.com/Dschee/Permission.git", :tag => "v#{s.version}" }
 
   s.weak_framework = 'Speech'
 
