@@ -1,4 +1,4 @@
-***This repository is a fork of the original project https://github.com/delba/Permission. It was created due to [this ](https://github.com/delba/Permission/pull/94) and [that](https://github.com/delba/Permission/pull/90) PRs not getting merged or answered by @delba any more. To switch to this fork simply replace `pod 'Permission'` with `pod 'Dschee-Permission'` if you are using CocoaPods or `github "delba/Permission"` with `github "Dschee/Permission"` if your are using Carthage.***
+***This repository is a fork of the original project https://github.com/delba/Permission. It was created due to [this ](https://github.com/delba/Permission/pull/94) and [that](https://github.com/delba/Permission/pull/90) PR not getting merged or answered by @delba any more. To switch to this fork simply replace `pod 'Permission'` with `pod 'Dschee-Permission'` if you are using CocoaPods or `github "delba/Permission"` with `github "Dschee/Permission"` if your are using Carthage.***
 
 <p align="center">
   <img src="https://github.com/Dschee/Permission/raw/assets/Permission@2x.png">
@@ -20,8 +20,8 @@
 
 #### Permission
 
-> [`Permission.swift`](https://github.com/Dschee/Permission/blob/master/Source/Permission.swift)
-> [`PermissionStatus.swift`](https://github.com/Dschee/Permission/blob/master/Source/PermissionStatus.swift)
+> [`Permission.swift`](https://github.com/Dschee/Permission/blob/release/Source/Permission.swift)
+> [`PermissionStatus.swift`](https://github.com/Dschee/Permission/blob/release/Source/PermissionStatus.swift)
 
 ```swift
 let permission: Permission = .contacts
@@ -40,28 +40,28 @@ permission.request { status in
 
 ##### Supported Permissions
 
-> [`PermissionType.swift`](https://github.com/Dschee/Permission/blob/master/Source/PermissionType.swift)
-> [`PermissionTypes/`](https://github.com/Dschee/Permission/tree/master/Source/PermissionTypes)
+> [`PermissionType.swift`](https://github.com/Dschee/Permission/blob/release/Source/PermissionType.swift)
+> [`PermissionTypes/`](https://github.com/Dschee/Permission/tree/release/Source/PermissionTypes)
 
-- [`AddressBook`](https://github.com/Dschee/Permission/blob/master/Source/PermissionTypes/AddressBook.swift) (Deprecated in iOS 9.0)
-- [`Bluetooth`](https://github.com/Dschee/Permission/blob/master/Source/PermissionTypes/Bluetooth.swift)
-- [`Camera`](https://github.com/Dschee/Permission/blob/master/Source/PermissionTypes/Camera.swift)
-- [`Contacts`](https://github.com/Dschee/Permission/blob/master/Source/PermissionTypes/Contacts.swift)
-- [`Events`](https://github.com/Dschee/Permission/blob/master/Source/PermissionTypes/Events.swift)
-- [`Motion`](https://github.com/Dschee/Permission/blob/master/Source/PermissionTypes/Motion.swift)
-- [`Microphone`](https://github.com/Dschee/Permission/blob/master/Source/PermissionTypes/Microphone.swift)
-- [`Notifications`](https://github.com/Dschee/Permission/blob/master/Source/PermissionTypes/Notifications.swift)
-- [`Photos`](https://github.com/Dschee/Permission/blob/master/Source/PermissionTypes/Photos.swift)
-- [`Reminders`](https://github.com/Dschee/Permission/blob/master/Source/PermissionTypes/Reminders.swift)
-- [`LocationAlways`](https://github.com/Dschee/Permission/blob/master/Source/PermissionTypes/LocationAlways.swift)
-- [`LocationWhenInUse`](https://github.com/Dschee/Permission/blob/master/Source/PermissionTypes/LocationWhenInUse.swift)
-- [`MediaLibrary`](https://github.com/Dschee/Permission/blob/master/Source/PermissionTypes/MediaLibrary.swift)
-- [`SpeechRecognizer`](https://github.com/Dschee/Permission/blob/master/Source/PermissionTypes/SpeechRecognizer.swift)
-- [`Siri`](https://github.com/Dschee/Permission/blob/master/Source/PermissionTypes/Siri.swift)
+- [`AddressBook`](https://github.com/Dschee/Permission/blob/release/Source/PermissionTypes/AddressBook.swift) (Deprecated in iOS 9.0)
+- [`Bluetooth`](https://github.com/Dschee/Permission/blob/release/Source/PermissionTypes/Bluetooth.swift)
+- [`Camera`](https://github.com/Dschee/Permission/blob/release/Source/PermissionTypes/Camera.swift)
+- [`Contacts`](https://github.com/Dschee/Permission/blob/release/Source/PermissionTypes/Contacts.swift)
+- [`Events`](https://github.com/Dschee/Permission/blob/release/Source/PermissionTypes/Events.swift)
+- [`Motion`](https://github.com/Dschee/Permission/blob/release/Source/PermissionTypes/Motion.swift)
+- [`Microphone`](https://github.com/Dschee/Permission/blob/release/Source/PermissionTypes/Microphone.swift)
+- [`Notifications`](https://github.com/Dschee/Permission/blob/release/Source/PermissionTypes/Notifications.swift)
+- [`Photos`](https://github.com/Dschee/Permission/blob/release/Source/PermissionTypes/Photos.swift)
+- [`Reminders`](https://github.com/Dschee/Permission/blob/release/Source/PermissionTypes/Reminders.swift)
+- [`LocationAlways`](https://github.com/Dschee/Permission/blob/release/Source/PermissionTypes/LocationAlways.swift)
+- [`LocationWhenInUse`](https://github.com/Dschee/Permission/blob/release/Source/PermissionTypes/LocationWhenInUse.swift)
+- [`MediaLibrary`](https://github.com/Dschee/Permission/blob/release/Source/PermissionTypes/MediaLibrary.swift)
+- [`SpeechRecognizer`](https://github.com/Dschee/Permission/blob/release/Source/PermissionTypes/SpeechRecognizer.swift)
+- [`Siri`](https://github.com/Dschee/Permission/blob/release/Source/PermissionTypes/Siri.swift)
 
 #### PermissionAlert
 
-> [`PermissionAlert.swift`](https://github.com/Dschee/Permission/blob/master/Source/PermissionAlert.swift)
+> [`PermissionAlert.swift`](https://github.com/Dschee/Permission/blob/release/Source/PermissionAlert.swift)
 
 ##### Denied and disabled alerts
 
@@ -99,7 +99,7 @@ The system alert will only be presented if the user taps "Give Access".
 
 #### PermissionSet
 
-> [`PermissionSet.swift`](https://github.com/Dschee/Permission/blob/master/Source/PermissionSet.swift)
+> [`PermissionSet.swift`](https://github.com/Dschee/Permission/blob/release/Source/PermissionSet.swift)
 
 Use a `PermissionSet` to check the status of a group of `Permission` and to react when a permission is requested.
 
@@ -127,7 +127,7 @@ func permissionSet(permissionSet: PermissionSet, didRequestPermission permission
 
 #### PermissionButton
 
-> [`PermissionButton`](https://github.com/Dschee/Permission/blob/master/Source/PermissionButton.swift)
+> [`PermissionButton`](https://github.com/Dschee/Permission/blob/release/Source/PermissionButton.swift)
 
 A `PermissionButton` requests the permission when tapped and updates itself when its underlying permission status changes.
 
